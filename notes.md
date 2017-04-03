@@ -1,6 +1,6 @@
 # ReactJS Notes
 
-**1. Components and Web Components:** Piece of a framework that encapsulates something. It can be an object or a view or anything like that. It is an encapsuated pieace that can be used at multiple places in the app. 
+**1. Components and Web Components:** Piece of a framework that encapsulates something. It can be an object or a view or anything like that. It is an encapsuated pieace that can be used at multiple places in the app.
 
 [Web Component](https://www.webcomponents.org/)
 
@@ -31,7 +31,7 @@ A simple react component :
   );
 ```
 
-To create a react component. `React.createClass` function is used a an object is passed as a parameter. In this object `states` can be maniplated. 
+To create a react component. `React.createClass` function is used a an object is passed as a parameter. In this object `states` can be maniplated.
 
 Render is the only function that is required. Render function will contain the jsx that is written. Jsx is syntax extension of js. Elements that a component should contain should be written in render function.
 
@@ -39,10 +39,12 @@ Render is the only function that is required. Render function will contain the j
 
 **this:** `this` is the component itself. Like `MsgComponent`.
 
-**3. JSX:** A way to write html in js. It is not exactly html. JSX can't be sent to the browser directly. It should always be transpiled using `bable.js` or similar transpilers. JSX is just for developers convinience. Bable converts JSX into react function that converts JSX into elements and that is sent to the browser. 
+**3. JSX:** A way to write html in javascript. It is not exactly html. JSX can't be sent to the browser directly. It should always be transpiled using `bable.js` or similar transpilers. JSX is just for developers convinience. Bable converts JSX into react function that converts JSX into elements and that is sent to the browser. JSX can't be directly sent to the browser. What is sent to browser are react functions that are created used transpilers. If we look at the code above the return function in the render method is converted to javascript even though it is html. And thats why we can use `this` and other javascript inside html.
 
-React components can be rendered on `ReactDOM`. It can also be rendered on other systems as well. 
+React components can be rendered on `ReactDOM`. It can also be rendered on other systems as well.
 
 **ReactDOM:** ReactDOM is a glue between react and DOM. Any react components are rendered through reactDOM. Some main function of reactDOM are 1) `reactDOM.render()` - to render components and 2) `ReactDOM.findDOMNode()` - to find or get direct access to elements on the DOM.
 
+The above methods are the only things that are required to create a react component.
 
+**Introduction to React Components**
