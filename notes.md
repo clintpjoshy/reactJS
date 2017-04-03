@@ -2,8 +2,7 @@
 
 **1. Components and Web Components:** Piece of a framework that encapsulates something. It can be an object or a view or anything like that. It is an encapsuated pieace that can be used at multiple places in the app. 
 
-[Web Component]
-(https://www.webcomponents.org/)
+[Web Component](https://www.webcomponents.org/)
 
 **Advantages** Reuse code, embedd these components together and can be used at mlltiple places.
 
